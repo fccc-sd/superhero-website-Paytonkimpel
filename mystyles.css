@@ -1,0 +1,88 @@
+h1
+{
+    border-style: none;
+    border-color: black;
+    border-width: thick;
+    padding: 50px;
+    margin: 20px;
+    color: rgb(253, 0, 0);
+    
+}
+h2
+{
+    border-style: none;
+    border-color: black;
+    border-width: thick;
+    padding: 50px;
+    margin: 20px;
+    color: rgb(255, 225, 0);
+    
+}
+
+
+
+span{
+    font-weight: bold;
+    color: red;
+    background-color: rgb(255, 255, 255);
+}
+p
+{
+    color: rgba(0, 247, 255);
+    
+}
+    
+
+body
+{
+    background-image: url(images/iron.jpg);
+    font-size: x-large;
+    
+    
+}
+
+img
+{
+    float: right;
+    padding: 50px;
+}
+
+nav
+{
+        background-color: rgb(253, 0, 0);
+        line-height: 200%;
+        display: block;
+
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a:link
+{
+    color: rgb(0, 247, 255);
+   
+    text-decoration: dashed;
+}
+
+nav a:visited
+{
+    color:rgb(255, 225, 0)
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:active{
+    text-decoration: underline;
+
+}
+div{
+    font-weight: bold;
+}
