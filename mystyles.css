@@ -1,3 +1,70 @@
+#container
+{
+    background-color: black;
+    margin: 0 auto;
+    width: 960px;
+}
+
+header
+{
+    background-color: white;
+    padding: 5;
+}
+
+aside
+{
+    background-color: purple;
+    width: 450px;
+    height: 1000px;
+    margin: 0 10px, 10px 0;
+    float: left;
+}
+
+section
+{
+    background-color: darkgray;
+     width: 450px;
+    height: 1000px;
+    margin: 0 10px, 10px 0;
+    float: right; 
+}
+
+footer
+{
+    background-color: blue;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1
 {
     border-style: none;
