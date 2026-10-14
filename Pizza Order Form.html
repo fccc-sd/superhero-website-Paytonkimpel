@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="this is my page about Iron Man">
+    <!--used to set keywords to help make the site easer to find on a search engine-->
+    <meta name="keywords" content="web,page,Iron Man">
+    <title>Payton Kimpels's site</title>
+    <!--used to link stylesheet-->
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+
+<body>
+    <h1>Pizza Order Form</h1>
+    <form id="pizza_order_form" action="my_app.php" method="post">
+        <p>Please enter your order</p>
+        <p>Name: <input type="text" name="name" id="name"></p>
+        <p>Address: <input type="text" name="address" id="address"></p>
+        <p>Phone: <input type="text" name="phone" id="phone"></p>
+
+        <p>Select Pizza Size</p>
+        <input type="checkbox" name="small" id="small">
+        <label for="small">Small</label>
+        <input type="checkbox" name="medium" id="medium">
+        <label for="medium">Medium</label>
+        <input type="checkbox" name="large" id="large">
+        <label for="large">Large</label>
+
+        <p>Select Toppings</p>
+        <input type="checkbox" name="peppers" id="peppers">
+        <label for="peppers">Peppers</label>
+        <input type="checkbox" name="onions" id="onions">
+        <label for="onions">Onions</label>
+        <input type="checkbox" name="pineapple" id="pineapple">
+        <label for="pineapple">Pineapple</label>
+        <input type="checkbox" name="olives" id="olives">
+        <label for="olives">Olives</label>
+        <input type="checkbox" name="ham" id="ham">
+        <label for="ham">Ham</label>
+        <p>Notes to the cook</p>
+        <textarea name="notes" id="notes" cols="20" rows="10"></textarea>
+        <p><input id="submit" type="submit" value="Order"></p>
+    </form>
+</body>
