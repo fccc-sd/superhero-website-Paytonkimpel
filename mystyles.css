@@ -1,18 +1,15 @@
-#container
-{
+#container {
     background-color: black;
     margin: 0 auto;
     width: 960px;
 }
 
-header
-{
+header {
     background-color: white;
     padding: 5;
 }
 
-aside
-{
+aside {
     background-color: purple;
     width: 450px;
     height: 1000px;
@@ -20,30 +17,28 @@ aside
     float: left;
 }
 
-section
-{
+section {
     background-color: darkgray;
-     width: 450px;
+    width: 450px;
     height: 1000px;
     margin: 0 10px, 10px 0;
-    float: right; 
+    float: right;
 }
 
-footer
-{
+footer {
     background-color: blue;
     clear: both;
 }
 
-table
-{
-border: solid 2px gold;
-border-collapse: collapse;
-background-color: red;
+table {
+    border: solid 2px gold;
+    border-collapse: collapse;
+    background-color: red;
 }
 
-tr, td, th
-{
+tr,
+td,
+th {
     border: solid 2px gold;
     padding: 5px;
     width: 100px;
@@ -51,14 +46,12 @@ tr, td, th
     vertical-align: middle;
 }
 
-tr:hover
-{
+tr:hover {
     color: gold;
     background-color: blue;
 }
 
-caption
-{
+caption {
     caption-side: top;
     font-weight: bold;
     margin: 5px;
@@ -68,7 +61,7 @@ caption
 
 
 
-label{
+label {
     color: rgba(0, 247, 255);
 }
 
@@ -93,91 +86,84 @@ label{
 
 
 
-h1
-{
+h1 {
     border-style: none;
     border-color: black;
     border-width: thick;
     padding: 50px;
     margin: 20px;
     color: rgb(253, 0, 0);
-    
+
 }
-h2
-{
+
+h2 {
     border-style: none;
     border-color: black;
     border-width: thick;
     padding: 50px;
     margin: 20px;
     color: rgb(255, 225, 0);
-    
+
 }
 
 
 
-span{
+span {
     font-weight: bold;
     color: red;
     background-color: rgb(255, 255, 255);
 }
-p
-{
-    color: rgba(0, 247, 255);
-    
-}
-    
 
-body
-{
+p {
+    color: red,
+
+}
+
+
+body {
     background-image: url(images/iron.jpg);
     font-size: x-large;
-    
-    
+
+
 }
 
-img
-{
+img {
     float: right;
     padding: 50px;
 }
 
-nav
-{
-        background-color: rgb(253, 0, 0);
-        line-height: 200%;
-        display: block;
+nav {
+    background-color: rgb(253, 0, 0);
+    line-height: 200%;
+    display: block;
 
 }
 
-nav li
-{
+nav li {
     display: inline;
     padding-right: 40px;
     list-style-type: none;
 }
 
-nav a:link
-{
+nav a:link {
     color: rgb(0, 247, 255);
-   
+
     text-decoration: dashed;
 }
 
-nav a:visited
-{
-    color:rgb(255, 225, 0)
+nav a:visited {
+    color: rgb(255, 225, 0)
 }
 
-nav a:hover
-{
+nav a:hover {
     text-decoration: underline;
 }
 
-nav a:active{
+nav a:active {
     text-decoration: underline;
 
 }
-div{
+
+div {
     font-weight: bold;
 }

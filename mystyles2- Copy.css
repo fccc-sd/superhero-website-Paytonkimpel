@@ -1,20 +1,15 @@
-
-
-#container
-{
+#container {
     background-color: black;
     margin: 1% auto;
     width: 90%;
 }
 
-header
-{
+header {
     background-color: white;
     padding: 1%;
 }
 
-aside
-{
+aside {
     background-color: purple;
     width: 50%;
     height: 70%;
@@ -22,17 +17,15 @@ aside
     float: left;
 }
 
-section
-{
+section {
     background-color: darkgray;
-     width: 30%;
+    width: 30%;
     height: 70%;
     margin: 0 2%, 2% 0;
-    float: right; 
+    float: right;
 }
 
-footer
-{
+footer {
     background-color: blue;
     clear: both;
 }
@@ -41,8 +34,7 @@ footer
 
 
 
-h1
-{
+h1 {
     border-style: none;
     border-color: black;
     border-width: thick;
@@ -50,10 +42,10 @@ h1
     margin: 4%;
     color: rgb(253, 0, 0);
     font-size: 2.0em;
-    
+
 }
-h2
-{
+
+h2 {
     border-style: none;
     border-color: black;
     border-width: thick;
@@ -61,88 +53,84 @@ h2
     margin: 4%;
     color: rgb(255, 225, 0);
     font-size: 1.5em;
-    
+
 }
 
 
 
-span{
+span {
     font-weight: bold;
     color: red;
     background-color: rgb(255, 255, 255);
 }
-p
-{
-    color: rgba(0, 247, 255);
-    
-}
-    
 
-body
-{
+p {
+    color: red;
+
+}
+
+
+body {
     background-image: url(images/iron.jpg);
     font-size: 1em;
-    
-    
+
+
 }
 
-img
-{
+img {
     float: right;
     padding: 8%;
     width: 50%;
     max-width: 500px;
 }
 
-nav
-{
+nav {
     background-color: rgb(253, 0, 0);
     line-height: 200%;
     display: block;
 
 }
 
-nav li
-{
+nav li {
     display: inline;
     padding-right: 7%;
     list-style-type: none;
 }
 
-nav a:link
-{
+nav a:link {
     color: rgb(0, 247, 255);
-   
+
     text-decoration: dashed;
 }
 
-nav a:visited
-{
-    color:rgb(255, 225, 0)
+nav a:visited {
+    color: rgb(255, 225, 0)
 }
 
-nav a:hover
-{
+nav a:hover {
     text-decoration: underline;
 }
 
-nav a:active{
+nav a:active {
     text-decoration: underline;
 
 }
-div{
+
+div {
     font-weight: bold;
 }
 
 
-@media only screen and (max-width: 640px){
- aside, section {
-    float: none;
-    width: 100%;
-    margin: 0 2%, 2% 0;
-}
+@media only screen and (max-width: 640px) {
 
-img{
-    width: 80%;
-}
+    aside,
+    section {
+        float: none;
+        width: 100%;
+        margin: 0 2%, 2% 0;
+    }
+
+    img {
+        width: 80%;
+    }
 }
